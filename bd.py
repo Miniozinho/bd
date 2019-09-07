@@ -6,7 +6,7 @@ import pymysql.cursors
 
 con = pymysql.connect(host='127.0.0.1',
                       user='miniozinho',
-                      password='ckwq579laac4',
+                      password='senha',
                       db='tarefas',
                       charset='utf8',
                       cursorclass=pymysql.cursors.DictCursor)
